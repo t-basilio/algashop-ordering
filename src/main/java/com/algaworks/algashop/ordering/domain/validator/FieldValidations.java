@@ -9,7 +9,7 @@ public class FieldValidations {
     private FieldValidations() {}
 
     public static void requiresNonBlank(String value) {
-        requiresNonBlank(value, null);
+        requiresNonBlank(value, "");
     }
 
     public static void requiresNonBlank(String value, String errorMessage) {

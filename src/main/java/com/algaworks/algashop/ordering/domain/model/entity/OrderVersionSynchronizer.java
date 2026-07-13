@@ -1,9 +1,9 @@
 package com.algaworks.algashop.ordering.domain.model.entity;
 
 import com.algaworks.algashop.ordering.domain.model.repository.VersionSynchronizer;
-import org.springframework.stereotype.Component;
+import com.algaworks.algashop.ordering.domain.model.utility.DomainSynchronizer;
 
-@Component
+@DomainSynchronizer
 public class OrderVersionSynchronizer implements VersionSynchronizer<Order> {
 
     @Override
